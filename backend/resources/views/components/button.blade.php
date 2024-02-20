@@ -1,0 +1,1 @@
+<button {{ $attributes->class(['btn', $color])->merge(['type' => "button"]) }}>{{ $slot }}</button>
